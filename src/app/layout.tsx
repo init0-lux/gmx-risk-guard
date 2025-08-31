@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import "@rainbow-me/rainbowkit/styles.css";
+import "@rainbow-me/rainbowkit/dist/index.css";
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
