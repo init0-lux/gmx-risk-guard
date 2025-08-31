@@ -144,7 +144,7 @@ export function PnLSimulator({ state, onStateChange }: PnLSimulatorProps) {
                   return (
                     <Button
                       key={change}
-                      variant={isSelected ? (scenario?.pnl >= 0 ? "profit" : "loss") : "outline"}
+                      variant={isSelected ? ( (scenario?.pnl ?? 0) >= 0 ? "profit" : "loss") : "outline"}
                       onClick={() => setSelectedScenario(change)}
                       className="flex flex-col items-center gap-1 h-auto py-3"
                     >
