@@ -7,9 +7,9 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GMX Risk Guard - Avalanche Perpetual Trading Risk Calculator',
+  title: 'Rizq - Avalanche Perpetual Trading Risk Calculator',
   description: 'Comprehensive risk management tools for GMX perpetual traders on Avalanche. Calculate liquidation prices, PnL scenarios, funding fees, and get safe leverage recommendations.',
-  keywords: 'GMX, Avalanche, perpetual trading, risk management, liquidation calculator, leverage, DeFi',
+  keywords: 'GMX, Avalanche, perpetual trading, risk management, liquidation calculator, leverage, DeFi, Rizq',
   authors: [{ name: 'GMX Risk Guard Team' }],
   openGraph: {
     title: 'GMX Risk Guard',

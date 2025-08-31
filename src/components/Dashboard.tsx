@@ -40,7 +40,7 @@ export function Dashboard() {
             <Shield className="h-8 w-8 text-white" />
           </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-gmx-blue to-gmx-purple bg-clip-text text-transparent">
-            GMX Risk Guard
+            Rizq: GMX Risk Guard
           </h1>
         </div>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
